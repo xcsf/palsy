@@ -24,7 +24,7 @@ module.exports = {
    * In most cases please use '/' !!!
    * Detail: https://cli.vuejs.org/config/#publicpath
    */
-  publicPath: "/",
+  publicPath: "/palsy/",
   outputDir: "dist",
   assetsDir: "static",
   productionSourceMap: false,

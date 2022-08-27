@@ -76,6 +76,12 @@ export const constantRoutes = [
         component: () => import("@/views/tree/index"),
         meta: { title: "Tree", icon: "tree" },
       },
+      {
+        path: "heatmap",
+        name: "HeatMap",
+        component: () => import("@/views/heatmap"),
+        meta: { title: "HeatMap", icon: "tree" },
+      },
     ],
   },
 

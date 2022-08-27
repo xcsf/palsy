@@ -117,3 +117,13 @@ export function param2Obj(url) {
   });
   return obj;
 }
+
+export function createPromise() {
+  let myResolve = null;
+  let myReject = null;
+  let myPromise = new Promise((resolve, reject) => {
+    myResolve = resolve;
+    myReject = reject;
+  });
+  return { myPromise, myResolve, myReject };
+}
